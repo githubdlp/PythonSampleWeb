@@ -7,7 +7,7 @@ class FlaskrTestCase(unittest.TestCase):
         
     def test_index(self):
         rv = self.app.get('/')
-        assert b'hello, 2world' in rv.data
+        assert b'hello, 3world' in rv.data
         
         
 if __name__ == '__main__':
